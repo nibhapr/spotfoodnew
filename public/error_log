@@ -1,0 +1,11 @@
+[07-Jan-2022 10:43:45 UTC] PHP Warning:  include(/home/u291690108/domains/thehungryman.in/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/u291690108/domains/thehungryman.in/public_html/vendor/composer/ClassLoader.php on line 444
+[07-Jan-2022 10:43:45 UTC] PHP Warning:  include(): Failed opening '/home/u291690108/domains/thehungryman.in/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/u291690108/domains/thehungryman.in/public_html/vendor/composer/ClassLoader.php on line 444
+[07-Jan-2022 10:43:45 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/u291690108/domains/thehungryman.in/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/u291690108/domains/thehungryman.in/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/u291690108/domains/thehungryman.in/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/u291690108/domains/thehungryman.in/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/u291690108/domains/thehungryman.in/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(283): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/u291690108/domains/thehungryman.in/public_ in /home/u291690108/domains/thehungryman.in/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[11-May-2022 00:12:17 Asia/Kolkata] PHP Fatal error:  Constant expression contains invalid operations in /home/u291690108/domains/saakshi.in/public_html/spain/app/Http/Controllers/ItemsController.php on line 18
+[11-May-2022 00:14:48 Asia/Kolkata] PHP Fatal error:  Constant expression contains invalid operations in /home/u291690108/domains/saakshi.in/public_html/spain/app/Http/Controllers/ItemsController.php on line 18
